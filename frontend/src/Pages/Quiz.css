@@ -1,0 +1,64 @@
+/* src/index.css */
+
+  
+  .App {
+    text-align: center;
+    width: 90%;
+    max-width: 600px;
+    background: #ffffff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  }
+  
+
+  .question h2,
+  .result h2 {
+    color: #00796b; 
+    text-align: center;
+    font-size: 25px;
+    
+  }
+  .result h2{
+    text-align: left;
+    margin-bottom: 5px ;
+  }
+  
+  .options button {
+    background-color: #4db6ac;
+    color: #fff;
+    border: none;
+    padding: 10px 0px;
+    margin: 10px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    width: 25%;
+    
+  }
+  
+  .options button:hover {
+    background-color: #00796b;
+  }
+  
+  .medi{
+    background:url("frontend/src/Pages/Start-Up_2020.jpg") no-repeat ;
+  }
+  
+  .retest-button {
+    background-color: #ff7043;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    margin-top: 15px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .retest-button:hover {
+    background-color: #e64a19;
+  }
